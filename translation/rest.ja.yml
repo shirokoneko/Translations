@@ -1,0 +1,15 @@
+ja:
+  join_server:
+    joined: "%{user}がパブリック絵文字パックでサーバーに参加しました！"
+
+  vote:
+    guild_rank: "%{guild}が#%{guild_rank}になりました"
+    vote_text: |
+      <@%{user}> just voted for the server on %{site}!
+      %{guild} can now use %{max_emotes} serverwide emotes
+
+    vote_text_rank: |
+      <@%{user}> just voted for the server on %{site}!
+      %{guild} can now use %{max_emotes} serverwide emotes and is ranked #%{guild_rank}
+
+    voted: "NQNに投票でした"
