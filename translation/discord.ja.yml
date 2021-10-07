@@ -1,0 +1,42 @@
+ja:
+  ext.commands.help:
+    need_emojis: " - I need this to use emojis!"
+    need_everyone_external: " - @everyone needs this for me to use emojis!"
+    need_help: " - I need this for the help command!"
+    nothing: ""
+
+    choose_page: "コマンドを見る"
+
+    please_give: "I won't function correctly without these!"
+    fix_perms: |
+      - **[Fix Server Permissions](%{invite_url})**
+
+    nqn_help: "NQNヘルプ"
+    my_prefix: |
+      私のコマンドのプレフィクスは`%{prefix}`
+      ❌ (\:x:)でリアクションすると、再送信されたメッセージを削除します！
+    slash_command_beta: |
+
+      私たちの新しい**[スラッシュコマンドベータ](%{invite_url})を使用してみましょう**
+
+    categories: "カテゴリー"
+    everything_else: "Everything else"
+    really_useful: "Really Useful Commands"
+
+    useful_links: "お役立ちリンク:"
+    website: "ウェブサイト"
+    vote: "投票！"
+    support: "サポート"
+    emote_list: "私の絵文字"
+
+    top_gg_vote: "Voting for me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot better by increasing our visibility and allowing more emotes when we join a server."
+    bfd_vote: "Giving me an upvote at [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) helps out our visibility. With every new server I join, my emote database gets larger."
+
+    what_is: "Not Quite Nitroはなんですか？"
+    bot_description: |
+      Not Quite Nitro is a multipurpose utility bot which allows any user to use Nitro emotes.
+      We have an extremely large database of visually unique emotes which you can use in any server the bot is in with Manage Webhook permissions.
+
+      NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
+
+      [あなたのサーバーに](https://discord.com/api/oauth2/authorize?%{params})私を招待することができます。
