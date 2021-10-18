@@ -1,18 +1,18 @@
 ja:
   oops: "おっと！"
   external_emojis: |
-    In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Server Settings**.
+    他のサーバーの絵文字を使用するには、@everyoneロールに**サーバー設定**で「外部の絵文字を使用する」権限が必要です。
   override_external_emojis: |
-    In order to use emojis from other servers, the @everyone role needs permission to 'Use External Emojis' in the **Channel Settings Permissions**.
+    他のサーバーの絵文字を使用するには、@everyoneロールに**チャンネルの設定の権限**で「外部の絵文字を使用する」権限が必要です。
 
   download: "ダウンロード"
 
   no_personas: |
-    Personas are not allowed in this server
+    このサーバーではペルソナは使用できません
   no_messageless_posting: |
-    A server administrator has disabled posting through the web dashboard and slash commands
+    サーバー管理者がウェブダッシュボードとスラッシュコマンドによる投稿を無効にしています
   no_slowmode_posting: |
-    Posting messages in channels with a slowmode is not allowed
+    スローモードを持つチャンネルではメッセージを送信できません。
 
   enable_posting: "送信の無効化"
   posted_message: "メッセージを送信されました"

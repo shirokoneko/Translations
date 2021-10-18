@@ -33,20 +33,20 @@ ja:
   user_missing_add_reaction: "You are missing the 'Add Reactions' permission to run this command."
 
   tabulated_default_results:
-    one: "%{count} result (Page %{page_no} of %{total}):\n%{contents}"
-    many: "%{count} results (Page %{page_no} of %{total}):\n%{contents}"
+    one: "%{count}件の結果 (ページ%{page_no}/%{total}):\n%{contents}"
+    many: "%{count}件の結果 (ページ%{page_no}/%{total}):\n%{contents}"
 
   tabulated_results_page:
-    zero: "No emotes found"
-    one: "Page %{page_no} of %{total}%{note}"
-    many: "Page %{page_no} of %{total}%{note}"
+    zero: "絵文字が見つかりません"
+    one: "ページ%{page_no}/%{total}%{note}"
+    many: "ページ%{page_no}/%{total}%{note}"
 
-  page_no: "Page %{page} of %{total}:"
-  no_results: "No results"
-  loading: "<a:loading:674758249291186191> Processing..."
+  page_no: "ページ%{page}/%{total}:"
+  no_results: "結果なし"
+  loading: "<a:loading:674758249291186191> 読み込み中..."
 
 
-  timed_out: "Timed out - try again"
+  timed_out: "タイムアウトしました - もう一度お試しください"
 
   global_check_failed: "%{cmd_name}を使用することはできません。"
 
@@ -69,10 +69,10 @@ ja:
     You cannot use any commands or otherwise make use of the bot's functionality.
 
   user_spammed: |
-    You have been temporarily blocked from using NQN for triggering our automated spam detection system.
-    This message will only be sent at most once a day, and there is no way to appeal this block.
+    自動スパム検出システムが作動したため、NQNの利用が一時的にブロックされました。
+    このメッセージは最大で1日1回しか送信されず、このブロックに抗議する方法はありません。
 
-    You will be unblocked in under **5 minutes** from now.
+    今から **5分** 以内にブロックが解除されます。
 
   support_server: |
     ここに私のサポートサーバーに参加することができます:
@@ -80,7 +80,7 @@ ja:
     バグを報告したり、新しい機能を要求したり、私の使い方を説明してもらうことができます。
 
   premium_required: |
-    To do this, you need to be a subscriber to NQN's Patreon: https://www.patreon.com/NQN
+    そのためには、NQNのPatreonの購読者になる必要があります: https://www.patreon.com/NQN
 
   invite_bad_perms:
     title: |
@@ -90,6 +90,6 @@ ja:
       We've looked around and found that we don't quite have all the permissions we need to function properly though.
       To fix this so you can properly use the bot, a link's been generated which will give all the relevent permissions to the bot:
 
-      **[Fix Permissions](%{invite_url})**
+      **[権限の修正](%{invite_url})**
 
-  webhook_limit: "Webhook limit reached! このチャンネルに動けません！"
+  webhook_limit: "Webhookの上限に達しました！このチャンネルに動けません！"

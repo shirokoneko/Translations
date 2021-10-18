@@ -1,15 +1,15 @@
 ja:
   ext.commands.help:
-    need_emojis: " - I need this to use emojis!"
-    need_everyone_external: " - @everyone needs this for me to use emojis!"
-    need_help: " - I need this for the help command!"
+    need_emojis: " - 絵文字を使うにはこれが必要です！"
+    need_everyone_external: " - 絵文字を使うには@everyoneが絵文字を必要とします！"
+    need_help: " - ヘルプコマンドにこれが必要です！"
     nothing: ""
 
     choose_page: "コマンドを見る"
 
-    please_give: "I won't function correctly without these!"
+    please_give: "これがないと正常に機能しませんからね！"
     fix_perms: |
-      - **[Fix Server Permissions](%{invite_url})**
+      - **[サーバー権限の修正](%{invite_url})**
 
     nqn_help: "NQNヘルプ"
     my_prefix: |
@@ -20,8 +20,8 @@ ja:
       私たちの新しい**[スラッシュコマンドベータ](%{invite_url})を使用してみましょう**
 
     categories: "カテゴリー"
-    everything_else: "Everything else"
-    really_useful: "Really Useful Commands"
+    everything_else: "その他"
+    really_useful: "便利なコマンド"
 
     useful_links: "お役立ちリンク:"
     website: "ウェブサイト"
@@ -32,11 +32,11 @@ ja:
     top_gg_vote: "Voting for me at [top.gg](https://top.gg/bot/559426966151757824/vote) makes the bot better by increasing our visibility and allowing more emotes when we join a server."
     bfd_vote: "Giving me an upvote at [Bots for Discord](https://botsfordiscord.com/bot/559426966151757824/vote) helps out our visibility. With every new server I join, my emote database gets larger."
 
-    what_is: "Not Quite Nitroはなんですか？"
+    what_is: "Not Quite Nitroは何ですか？"
     bot_description: |
-      Not Quite Nitro is a multipurpose utility bot which allows any user to use Nitro emotes.
-      We have an extremely large database of visually unique emotes which you can use in any server the bot is in with Manage Webhook permissions.
+      Not Quite Nitroは、ユーザーがNitro絵文字を使用できる多目的ユーティリティー・ボットです。
+      私たちは、視覚的にユニークな絵文字の非常に大きなデータベースを持っており、ウェブフック権限を持つボットのどのサーバーでも使用することができます。
 
-      NQN also allows automatic quoting whenever a user posts a message link, the use of masked urls in chat and stickers, which are full size emotes.
+      また、NQNでは、ユーザーがメッセージのリンクを投稿すると自動的に引用したり、チャットでマスクされたURLを使用したり、フルサイズのエモートであるスタンプを使用したりすることができます。
 
       [あなたのサーバーに](https://discord.com/api/oauth2/authorize?%{params})私を招待することができます。
